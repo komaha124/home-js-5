@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <div class="content">
+        <p>Написать функцию, которая принимает 2 числа и возвращает -1, если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если числа равны.</p>
+        <input placeholder="Первое число" value="" id="num1" type="number">
+        <input placeholder="Второе число " value="" id="num2" type="number">
+        <button onclick="TheEquationNun()">Подсчет</button>
+        <p id="stroka1"></p>
+    </div>
+    <div class="content">
+        <p>Написать функцию, которая вычисляет факториал переданного ей числа.</p>
+        <input placeholder="Ведите число" value="" id="num3" type="number">
+        <button onclick="factorialNun()">Вычеслить факториал</button>
+        <p id="stroka2"></p>
+    </div>
+    <div class="content block">
+        <p>Написать функцию, которая принимает три отдельные цифры и превращает их в одно число. Например: цифры 1, 4, 9 превратятся в число 149.</p>
+        <input placeholder="Первое число" value="" id="num4" type="number"><br><br>
+        <input placeholder="Второе число" value="" id="num5" type="number"><br><br>
+        <input placeholder="Третье число" value="" id="num6" type="number"><br><br>
+        <button onclick="SummNum()">Превратить в число</button>
+        <p id="stroka3"></p>
+    </div>
+    <div class="content">
+        <p>Написать функцию, которая принимает длину и ширину прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.</p>
+        <input placeholder="Длина" value="" id="num7" type="number">
+        <input placeholder="Ширина" value="" id="num8" type="number">
+        <button onclick="Square()">Вичеслить площадь</button>
+        <p id="stroka4"></p>
+    </div>
+    <div class="content">
+        <p>Написать функцию, которая проверяет, является ли переданное ей число совершенным. Совершенное число – это число, равное сумме всех своих собственных делителей.</p>
+        <input placeholder="Ведите число" value="" id="num9" type="number"> 
+        <button onclick="Verify()">Проверить</button>
+        <p id="stroka5"></p>
+    </div>
+   <div class="content block" >
+        <p>Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет. </p>
+        <input placeholder="Первое число" value="" id="num10" type="number">
+        <input placeholder="Второе число" value="" id="num11" type="number">
+        <button onclick="VerifyNum()">Проверить</button>
+        <p id="stroka6"></p>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <style>
+        body{
+            background-color: #11dc2a38;
+        }
+       .content{
+           width: 600px;
+           margin: 20px auto;
+           height: 150px;
+           border: 1px solid black;
+           padding: 0 20px;
+       }
+       .block{
+        height: 250px;
+       }
+    </style>
+</body>
+</html>
